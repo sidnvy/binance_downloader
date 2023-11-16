@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "binance_history_downloader"
-version = "0.1.3"
+version = "0.1.4"
 description = ""
 authors = ["Sid <sidnvy@gmail.com>"]
 license = "MIT"
