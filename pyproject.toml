@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "binance_downloader"
+version = "0.1.0"
+description = ""
+authors = ["Sid <sidnvy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.3"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
