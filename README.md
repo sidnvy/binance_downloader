@@ -13,15 +13,15 @@ Binance Downloader is a Python package for efficiently downloading cryptocurrenc
 ## Installation
 To install Binance Downloader, you will need Python 3.10 or later. The package can be installed via pip. Run the following command:
 ```bash
-pip install binance_downloader
+pip install binance_history_downloader
 ```
 
 ## Usage
 Here is a basic example of how to use Binance Downloader:
 
 ```python
-from binance_downloader import download
-from binance_downloader import DataType
+from binance_history_downloader import download
+from binance_history_downloader import DataType
 
 # Example: Downloading premium index klines for SOLUSDT
 data, errors = download('SOLUSDT', DataType.PREMIUM_INDEX_KLINES, '2023-01-01', '2023-01-31')

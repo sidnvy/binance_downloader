@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "binance_downloader"
+name = "binance_history_downloader"
 version = "0.1.1"
 description = ""
 authors = ["Sid <sidnvy@gmail.com>"]
